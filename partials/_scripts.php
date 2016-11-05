@@ -56,7 +56,7 @@
 <script>
   $(function(){
       $(".title-offer").typed({
-        strings: ["SUPER PROMOÇÃO MÊS DE OUTUBRO...", "NÃO PERCA ESTA OPORTUNIDADE!!!"],
+        strings: ["Novembro Azul na Fisiostetica...", "Homem também se cuida!"],
         typeSpeed: 30,
         backDelay: 500,
         loop: true
