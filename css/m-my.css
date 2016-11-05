@@ -1,0 +1,248 @@
+/******** HIDDING SECTIONS MOBILE VERSION ********/
+@media only screen and (min-width: 761px){
+	.m-navigation{
+		display:none;
+	}
+	.m-home{
+		display: none;
+	}
+	.m-offer{
+		display: none;
+	}
+	.m-free{
+		display: none;
+	}
+	.m-services{
+		display: none;
+	}
+	.m-contact {
+		display: none;
+	}
+	.m-about {
+		display: none;
+	}
+	.m-footer{
+		display: none;
+	}
+
+}
+/******** HIDDING SECTIONS DESKTOP VERSION ********/
+@media only screen and (max-width: 760px){
+	.navigation{
+		display:none;
+	}
+	.home{
+		display: none;
+	}
+	.offer{
+		display: none;
+	}
+	.free{
+		display: none;
+	}
+	.services{
+		display: none;
+	}
+	.contact {
+		display: none;
+	}
+	.about {
+		display: none;
+	}
+	.footer{
+		display: none;
+	}
+	/********* END HIDDING SECTION *********/
+	.m-navigation{
+		position: fixed;
+		bottom: 0;
+		background-color:#fff;
+		width: 100%;
+		display: inline-block;
+		z-index: 1;
+		height: 50px;
+		border-top:1px solid #cc66ff;
+	}
+	.m-navigation ul{
+		list-style: none;
+		text-decoration: none;
+		text-align: center;
+		background-color: #fff;
+	}
+	.m-navigation li{
+		display: inline-block;
+		margin-right: 2%;
+		margin-top: 2%;
+	}
+	.m-navigation i{
+		display: inline-block;
+	}
+	.m-navigation a{
+		color:#cc66ff;
+		font-family: 'Lato';
+		text-decoration: none;
+		font-weight: bold;
+	}
+	/********** END NAVIGATION SECTION *********/
+	.m-footer{
+		margin-bottom: 80px;
+		text-align: center;
+		background-color: #4c0080;
+		color:#fff;
+		overflow: auto;
+	}
+	.m-footer a{
+    text-decoration: none;
+    color:#fff;
+	}
+
+	.m-footer a:hover{
+    	color:#808080;
+	}
+	.m-versiculo{
+		padding-top: 10px;
+		padding-bottom: 5px;
+	}
+	.m-footer-logo{
+		padding-top: 10px;
+		padding-bottom: 5px;
+		font-size: 2em;
+	}
+	.m-footer-logo span{
+		font-size: .7em;
+	}
+	.m-footer-icons{
+		padding-bottom: 10px;
+	}
+	/********** END FOOTER SECTION *********/
+	.m-about{
+		width: 100%;
+		overflow: auto;
+	}
+	.m-about-title{
+
+	}
+	.m-txt-about{
+		width: 100%;
+		letter-spacing: 1px;
+    	line-height: 2;
+    	text-align: justify;
+    	padding-bottom: 20px;
+
+	}
+	.m-img-about{
+		width: 100%;
+		background-image: url("../images/about_pic.jpeg");
+		background-repeat: no-repeat;
+	    background-size: cover;
+	    height: 450px;
+	}
+
+	/******** END ABOUT **********/
+	.m-contact{
+		width: 100%;
+		overflow: auto;
+
+	}
+	.m-map{
+		text-align: center;
+		width: 90%;
+	}
+	.m-address{
+		width: 100%;
+		padding-top: 20px;
+		text-align: center;
+	}
+	.m-address p {
+		font-size: 1.2em;
+		line-height: 1.5;
+		font-weight: 600;
+	}
+	#m-map {
+        height: 400px;
+        width: 100%;
+       }
+/*********** END CONTACT **********/
+	.m-services{
+		width: 100%;
+		overflow: auto;
+		background-color: #ECF0F1;
+	}
+	.m-services i{
+		padding-right: 5px;
+		color: #ff6699;
+	}
+	.m-services-list{
+		font-size: 2em;
+		line-height: 1.8;
+		font-family: 'Lato';
+		font-weight: 600;
+		padding-left: 5%;
+	}
+	/*********** END SERVICES *********/
+	.m-free{
+		width: 100%;
+		overflow: auto;
+	}
+	.m-free input[type=text], input[type=email]{
+	    width: 100%;
+	    padding: 12px 20px;
+	    margin: 10px 0;
+/*	    margin-right: 10px;
+	    margin-left: 10px;*/
+	    box-sizing: border-box;
+	    color: #cc66ff;
+	    font-family: 'Dancing Script', cursive;
+	    font-size:1.2em;
+	    letter-spacing: 2px;
+	}
+	.m-btn{
+		text-align: center;
+	}
+	/******** END FREE *********/
+	.m-offer{
+		width: 100%;
+		background-color: #ff6699;
+		overflow: auto;
+	}
+	.m-offer .title-offer{
+		letter-spacing: 2px;
+		font-size: 1.5em;
+		padding-top: 20px;
+	}
+	.m-offer span{
+		padding-top: 27px;
+	}
+	.m-offer p{
+		color:#fff;
+		font-size: 1em;
+		letter-spacing: 1px;
+		padding-top: 10px;
+	}
+	/********** END OFFER ************/
+	.m-home{
+		width: 100%;
+		height: 400px;
+		background-color: #fff;
+		overflow: auto;
+		position: relative;
+	}
+	.m-home-img{
+		background-image: url("../images/logo_png.png");
+    	background-repeat: no-repeat;
+    	background-size: contain;
+    	height: 300px;
+    	width: 150px;
+    	left: 35%;
+    	position: absolute;
+	}
+	.m-home-txt{
+    position: absolute;
+    bottom:0;
+    padding-bottom: 20px;
+    padding-left: 15%;
+    font-family: 'Dancing Script', cursive;
+    font-size: 2.3em;
+    line-height: 1.5;
+}
+}
